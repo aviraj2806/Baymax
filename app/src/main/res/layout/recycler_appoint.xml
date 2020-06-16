@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/shape_acc_fill"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgAppointUser"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/avatar_light" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtAppointName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/seguisb"
+                    android:gravity="center"
+                    android:text="Name"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtAppointMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/seguisb"
+                    android:gravity="center"
+                    android:text="Mobile "
+                    android:textColor="@color/spinner_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txtAppointEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/seguisb"
+                    android:gravity="center"
+                    android:text="email"
+                    android:textColor="@color/spinner_light"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/txtAppointStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/seguisb"
+            android:text="Status : Pending"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/llAppointHospitalDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgAppointHospital"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/avatar_light" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtAppointHospitalName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/seguisb"
+                    android:gravity="center|start"
+                    android:text="Nobel Hospital"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/txtAppointHospitalContact"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/shape_white_circle"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_call_black_24dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/txtAppointHospitalDirections"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/shape_white_circle"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_location_on_black_24dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtAppointReqDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/seguisb"
+            android:gravity="right"
+            android:text="Listed On : 2020-05-23 20:00:54"
+            android:textColor="#ffffff"
+            android:textSize="10sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txtAppointDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/seguisb"
+            android:gravity="right"
+            android:text="Listed On : 2020-05-23 20:00:54"
+            android:textColor="#ffffff"
+            android:textSize="10sp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:id="@+id/llAppointStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:visibility="gone">
+
+            <TextView
+                android:id="@+id/txtAppointAccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_white_curve"
+                android:fontFamily="@font/seguisb"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Accept"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txtAppointReject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_white_curve"
+                android:fontFamily="@font/seguisb"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Reject"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtAppointCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/shape_white_curve"
+            android:fontFamily="@font/seguisb"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Cancel"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+
+</LinearLayout>

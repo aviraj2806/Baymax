@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Baymax</string>
+    <string name="pref_file">Baymax Preferences</string>
+    <string name="not_registered_yet">Not <font color="#269a9a">Registered</font> Yet?</string>
+    <string name="quote">Your <font color="#269a9a">personal</font> health-care <font color="#269a9a">companion.</font></string>
+    <string name="reg_message">I\'m <font color="#269a9a">Baymax,</font> Your personal healthcare\ncompanion. Please fill the details \nto <font color="#269a9a">set me Up!</font></string>
+
+    <string-array name="type">
+        <item>Select Type</item>
+        <item>Doctor</item>
+        <item>Patient</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="extra_details"><font color="#269a9a">Extra</font> Details</string>
+    <string name="what_s_new">What\'s <font color="#269a9a">New</font></string>
+    <string name="your_appointments">Your <font color="#269a9a">Appointments</font></string>
+    <string name="no_appointment_yet">No <font color="#269a9a">Appointment</font> Yet.</string>
+    <string name="upcoming_appointments">Upcoming <font color="#269a9a">Appointments</font></string>
+    <string name="scheduled_appointments">Requested <font color="#269a9a">Appointments</font></string>
+    <string name="request_appointment">Request <font color="#269a9a">Appointment</font></string>
+    <string name="select_specialization"><font color="#269a9a">Select</font> Specialization</string>
+    <string name="select_doctor">Select <font color="#269a9a">Doctor</font></string>
+    <string name="select_slot"><font color="#269a9a">Select</font> Slot</string>
+    <string name="add_new_report">Add New <font color="#269a9a">Report</font></string>
+    <string name="no_reports_found">No <font color="#269a9a">Report</font> Found</string>
+    <string name="add_report"><font color="#269a9a">Add</font> Report</string>
+    <string name="patient_reports"><font color = "#269a9a">Patient</font> Reports</string>
+
+    <string-array name="hospital">
+        <item>Select Hospital</item>
+        <item>Noble Hospital</item>
+        <item>Sahyadri Hospital</item>
+        <item>Vishwaraj Hospital</item>
+        <item>Ruby Hall Clinic</item>
+        <item>Jehangir Hospital</item>
+    </string-array>
+
+    <string-array name="spe">
+        <item>Select Specialization</item>
+        <item>Cardiology</item>
+        <item>Dermatology</item>
+        <item>Dentistry</item>
+        <item>Endocrinology</item>
+        <item>ENT</item>
+        <item>Gastroenterology</item>
+        <item>General and Laproscopic Surgery</item>
+        <item>Radiology</item>
+        <item>Neurology</item>
+        <item>Obstetrics and Gynecology</item>
+        <item>Nephrology</item>
+        <item>Oncology</item>
+        <item>Pediatrics</item>
+        <item>Opthalmology</item>
+        <item>Urology</item>
+        <item>Pyschiatry and Pyschotherapy</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Select Time</item>
+        <item>11:00</item>
+        <item>11:15</item>
+        <item>11:30</item>
+        <item>11:45</item>
+        <item>12:00</item>
+        <item>12:15</item>
+        <item>12:30</item>
+        <item>12:45</item>
+        <item>13:00</item>
+        <item>18:00</item>
+        <item>18:15</item>
+        <item>18:30</item>
+        <item>18:45</item>
+        <item>19:00</item>
+        <item>19:15</item>
+        <item>19:30</item>
+        <item>19:45</item>
+        <item>20:00</item>
+    </string-array>
+
+</resources>

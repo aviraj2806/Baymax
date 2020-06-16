@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/shape_acc_fill"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imgHospital"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:riv_corner_radius="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/avatar_light" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtHospitalName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/seguisb"
+                    android:gravity="center"
+                    android:text="Name"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtHospitalLoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                    android:drawableTint="#ffffff"
+                    android:fontFamily="@font/seguisb"
+                    android:gravity="center|center_vertical"
+                    android:text="Magarpatta, Pune "
+                    android:textColor="@color/spinner_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txtHospitalRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_star_black_24dp"
+                    android:drawableTint="#ffffff"
+                    android:fontFamily="@font/seguisb"
+                    android:gravity="center|center_vertical"
+                    android:text="5.0/5.0"
+                    android:textColor="@color/spinner_light"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:textColor="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/txtHospitalContact"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_white_circle"
+                android:padding="5dp"
+                android:src="@drawable/ic_call_black_24dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/txtHospitalDirections"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/shape_white_circle"
+                android:padding="5dp"
+                android:src="@drawable/ic_location_on_black_24dp" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtHospitalSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/shape_white_curve"
+            android:fontFamily="@font/seguisb"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Select Hospital"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

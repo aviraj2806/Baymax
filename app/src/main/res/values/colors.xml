@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#269a9a</color>
+    <color name="white">#ffffff</color>
+    <color name="spinner_dark">#ffffff</color>
+    <color name="spinner_light">#b2dfdb</color>
+    <color name="dark">#212121</color>
+    <color name="light">#707070</color>
+    <color name="option">#ffffff</color>
+    <color name="error">#dc4e41</color>
+</resources>

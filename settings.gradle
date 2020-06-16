@@ -1,0 +1,2 @@
+rootProject.name='Baymax2.0'
+include ':app'
